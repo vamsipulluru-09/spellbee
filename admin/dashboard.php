@@ -181,11 +181,11 @@ $aiml = mysqli_num_rows(mysqli_query($conn, "SELECT * FROM `users` WHERE `depart
                   </tr>
                   <tr>
                     <th>CSE INFORMATION TECHNOLOGY </th>
-                    <th><?php echo $cic ?></th>
+                    <th><?php echo $cseiot  ?></th>
                   </tr>
                   <tr>
                     <th>CSE CYBER SECURITY IOT, BLOCK CHAIN </th>
-                    <th><?php echo $cseiot ?></th>
+                    <th><?php echo $cic ?></th>
                   </tr>
                   <tr>
                     <th>CIVIL ENGINEERING</th>
@@ -204,7 +204,7 @@ $aiml = mysqli_num_rows(mysqli_query($conn, "SELECT * FROM `users` WHERE `depart
                     <th><?php echo $mech ?></th>
                   </tr>
                   <tr>
-                    <th>AIDArtificial Intelligence and Data ScienceS </th>
+                    <th>Artificial Intelligence and Data ScienceS </th>
                     <th><?php echo $aids ?></th>
                   </tr>
                   <tr>
