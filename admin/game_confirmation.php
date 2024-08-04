@@ -59,7 +59,7 @@ $notpayed = mysqli_query($conn, "SELECT * FROM `users` WHERE `payment_status` = 
 
       <!-- Bordered Table -->
       <div class="card">
-        <h5 class="card-header">Game Conformation</h5>
+        <h5 class="card-header">Payment Conformation</h5>
         <div class="card-body">
           <div class="table-responsive text-nowrap">
             <table class="table table-bordered" id="registrationTable">
