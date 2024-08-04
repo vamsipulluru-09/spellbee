@@ -26,7 +26,7 @@ elseif (isset($_POST['work']) and $_POST['work'] == 'update') {
     $pid = $_POST['pid'];
 
     $stud = $conn -> prepare("update `users` set `pid` = ? , `player_name` = ? , `place` = ? , `regno` = ? , `email` = ? , `department` = ? , `section` = ? where `pid` = ?");
-    $stud -> bind_param("ssisssss",$_POST['mobile'],$_POST['sname'],$_POST['year'],$_POST['regno'],$_POST['email'],$_POST['dept'],$_POST['section'],$pid);
+    $stud -> bind_param("ssisssss",$_POST['mobile'],$_POST['sname'],$_POST['year'],$_POST['regno'],$_POST['email'],$_POST['dept'],$_POST['sec'],$pid);
     if($stud -> execute()){
     $response = array(
         'success' => "Data Updated Successfully"
