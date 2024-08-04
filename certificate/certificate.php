@@ -64,8 +64,6 @@ $text = $batch;
 imagettftext($im, 20, 0, 150, 413, $black, $font, $text);
 
 
-
-
 $myfile = "tmp/".$rollno.".png";
 
 // output the image as a png

@@ -4,8 +4,7 @@ if (!isset($_SESSION['admin'])) header("location: login.php");
 
 include 'connect.php';
 
-$notpayed = mysqli_query($conn, "SELECT * FROM `users` WHERE `payment_status` = '1' and `status` = '0' ");
-
+$notpayed = mysqli_query($conn, "SELECT * FROM `users` WHERE `payment_status` = '1' AND `status` = '0' AND `points` IS NULL");
 ?>
 
 <!DOCTYPE html>
