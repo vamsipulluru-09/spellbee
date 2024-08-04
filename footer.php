@@ -98,7 +98,7 @@
                     2nd Floor, I-Hub Incubation Centre,<br>
                     Idea Lab, SRKR Engineering College,<br>
                     Chinna Amiram, Bhimavaram, A.P. - 534204<br>
-                    Phone : K.Yeswanth <a href="tel:+919676608446">+91 96766 08446</a><br>B Lakshman Kumr Reddy <a href="tel:+9187131582">+91 87121 31582</a><br>
+                    Phone : K.Yeswanth <a href="tel:+919676608446">+91 96766 08446</a><br>B Lakshman Kumr Reddy <a href="tel:+918712131582">+91 87121 31582</a><br>
                     <!-- Email: <a href="mailto:spellbee2k23@srkrec.edu.in">spellbee2k23@srkrec.edu.in</a><br> -->
                 </address>
                 <!-- END BOTTOM CONTACTS -->
