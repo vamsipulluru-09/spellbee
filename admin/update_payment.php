@@ -29,25 +29,38 @@ if (isset($_POST["payment"])) {
 
         echo "Error updating payment confirmation.";
     }
-}elseif (isset($_POST["replay"])) {
+} elseif (isset($_POST["replay"])) {
+
     $pid = $_POST["replay"];
+
     $previous_status = mysqli_fetch_assoc(mysqli_query($conn, "SELECT `payment_status` FROM `users` WHERE `pid` = $pid"))['payment_status'];
+
     $previous_status++;
 
-    $stmt = $conn->prepare("DELETE FROM responses WHERE `sid` = ?");
+    $stmt = $conn->prepare("DELETE FROM responses WHERE `sid` = ? ");
+
     $stmt->bind_param("s", $pid);
 
+
+
     if ($stmt->execute()) {
-        mysqli_query($conn, "INSERT INTO `replay`(`pid`, `replay`, `confby`) VALUES ('$pid','$previous_status','$admin')");
-        $setpoints = $conn->prepare("UPDATE `users` SET `payment_status` =?, `status`=1, `points`= 0 WHERE `pid` = ?");
+
+        mysqli_query($conn, "INSERT INTO `replay`(`pid`, `replay`, `confby`) VALUES ('$pid','$pervious_status','$admin')");
+
+        $setpoints = $conn->prepare("UPDATE `users` SET `payment_status` =?, `status`=1, `points`= NULL WHERE `pid` = ?");
+
         $setpoints->bind_param("is", $previous_status, $pid);
+
         $setpoints->execute();
+
         echo "Replay confirmation updated successfully.";
     } else {
+
+        // Update failed
+
         echo "Error updating Replay confirmation.";
     }
-}
- elseif (isset($_POST["allow"])) {
+} elseif (isset($_POST["allow"])) {
 
     $pid = $_POST["allow"];
 
