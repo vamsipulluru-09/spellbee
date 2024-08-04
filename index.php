@@ -13,9 +13,7 @@
 
     <link rel="shortcut icon" href="favicon.ico">
     <!-- Fonts START -->
-    <link
-        href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Pathway+Gothic+One|PT+Sans+Narrow:400+700|Source+Sans+Pro:200,300,400,600,700,900&amp;subset=all"
-        rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Pathway+Gothic+One|PT+Sans+Narrow:400+700|Source+Sans+Pro:200,300,400,600,700,900&amp;subset=all" rel="stylesheet" type="text/css">
     <!-- Fonts END -->
     <!-- Global styles BEGIN -->
     <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -36,38 +34,36 @@
 
 
     <style type='text/css'>
-    .blink {
-        animation: blink-animation 3s steps(5, start) infinite;
-        -webkit-animation: blink-animation 3s steps(5, start) infinite;
-    }
-
-    @keyframes blink-animation {
-        to {
-            visibility: hidden;
+        .blink {
+            animation: blink-animation 3s steps(5, start) infinite;
+            -webkit-animation: blink-animation 3s steps(5, start) infinite;
         }
-    }
 
-    @-webkit-keyframes blink-animation {
-        to {
-            visibility: hidden;
+        @keyframes blink-animation {
+            to {
+                visibility: hidden;
+            }
         }
-    }
 
-    h3 {
-        font-size: 14px;
-    }
+        @-webkit-keyframes blink-animation {
+            to {
+                visibility: hidden;
+            }
+        }
+
+        h3 {
+            font-size: 14px;
+        }
     </style>
 
 </head>
 <!--DOC: menu-always-on-top class to the body element to set menu on top -->
 
 <body class="menu-always-on-top">
+    <?php include 'header.php'; ?>
 
     <!-- BEGIN STYLE CUSTOMIZER -->
-    <div class="color-panel">
-        <div class="color-mode-icons icon-color"><a href='thirdround.php' style='color:#FFF'>Selected List</a></div>
-        <!-- <div class="color-mode-icons icon-color-close"></div> -->
-    </div>
+
     <!-- END BEGIN STYLE CUSTOMIZER -->
 
     <!-- Header BEGIN -->
@@ -87,7 +83,7 @@
                         <li><a href="index.php#services">Prizes</a></li>
                         <li><a href="index.php#portfolio">Leader Board</a></li>
                         <li><a href="index.php#benefits">FAQ</a></li>
-                        <li><a href="index.php#prices"><strong style='color:#C91E3E;'>REGISTER</strong></a></li>
+                        <li><a href="register.php"><strong style='color:#C91E3E;'>REGISTER</strong></a></li>
                         <li><a href="index.php#team">Team</a></li>
                         <li><a href="index.php#contact">Contact</a></li>
                     </ul>
@@ -113,10 +109,8 @@
 
                 <div class="item carousel-item-one active">
                     <img class="carousel-position-srkrec animate-delay" data-animation="animated fadeInDown">
-                    <img class="animate-delay" style='padding-top:150px;' src="assets/onepage/img/slider/cup.png"
-                        alt="SpellBee Challenge" data-animation="animated fadeInDown">
-                    <img class="carousel-position-coders hidden-sm hidden-xs animate-delay"
-                        data-animation="animated fadeInUp">
+                    <img class="animate-delay" style='padding-top:150px;' src="assets/onepage/img/slider/cup.png" alt="SpellBee Challenge" data-animation="animated fadeInDown">
+                    <img class="carousel-position-coders hidden-sm hidden-xs animate-delay" data-animation="animated fadeInUp">
                 </div>
 
                 <div class="item carousel-item-three">
@@ -124,20 +118,18 @@
                         <div class="center-block-wrap">
                             <div class="center-block-body">
                                 <span class="carousel-subtitle-v1">IMPORTANT DATES</span>
-                                <h3 class="margin-bottom-20 animate-delay promo-like-text"
-                                    data-animation="animated fadeInDown">
-                                    <div STYLE='font-size:28px;'><span class='color-red'>ROUND 1:</span> 04th SEP - 10th
-                                        OCT 2023</div>
-                                    <div STYLE='font-size:28px;'><span class='color-red'>ROUND 2:</span> 12th OCT - 28th
-                                        OCT 2023</div>
-                                    <div STYLE='font-size:28px;'><span class='color-red'>ROUND 3:</span> November 2nd </div>
+                                <h3 class="margin-bottom-20 animate-delay promo-like-text" data-animation="animated fadeInDown">
+                                    <div STYLE='font-size:28px;'><span class='color-red'>ROUND 1:</span> 01th AUG - 30th
+                                        AUG 2024</div>
+                                    <div STYLE='font-size:28px;'><span class='color-red'>ROUND 2:</span> Coming soon....
+                                    </div>
+                                    <div STYLE='font-size:28px;'><span class='color-red'>ROUND 3:</span> Coming soon....
+                                    </div>
                                 </h3>
                             </div>
                         </div>
                     </div>
-                    <img class="carousel-position-three hidden-sm hidden-xs animate-delay"
-                        src="assets/onepage/img/slider/cup.png" width='300px' alt="Prizes"
-                        data-animation="animated fadeInUp">
+                    <img class="carousel-position-three hidden-sm hidden-xs animate-delay" src="assets/onepage/img/slider/cup.png" width='300px' alt="Prizes" data-animation="animated fadeInUp">
                 </div>
             </div>
 
@@ -265,35 +257,35 @@
         <div class="container">
             <h2>Exciting <strong>Prizes</strong></h2>
             <div class="ab-trio">
-                <img src="assets/onepage/img/trio.png" alt="" class="img-responsive">
+                <img src="assets\onepage\img\trio.png" alt="" class="img-responsive">
             </div>
             <br>
             <h2 style='font-size:24px;'>Contest <strong>Sponsors</strong></h2>
             <div class="row">
                 <div class="col-md-4 col-sm-4 col-xs-12 item">
-                    <h3>Prime Sponsor</h3>
+                    <h3></h3>
                     <!--		        <a href="assets/onepage/img/sponsors/bhubl.jpg" class="zoom valign-center"> -->
-                    <a href='http://www.purplelane.in' target='plane'>
-                        <center> <img src="assets/onepage/img/sponsors/purplelane.png" alt="" class="img-responsive">
+                    <a href='' target='plane'>
+                        <center> <img src="assets/onepage/img/sponsors/" alt="" class="img-responsive">
                         </center>
-                        <b>www.purplelane.in</b>
+                        <b></b>
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-12 item">
-                    <h3>Title Sponsor</h3> <br>
-                    <a href='https://bhimavaramonline.page.link/dhgB' target='bvrmol'>
-                        <center> <img src="assets/onepage/img/sponsors/bvrmol.png" alt="" class="img-responsive">
+                    <h3>Prime Sponsor</h3> <br>
+                    <a href='https://naidugarikundabiryani.com/' target='bvrmol'>
+                        <center> <img src="assets/onepage/img/sponsors/naidu.png" alt="" class="img-responsive">
                         </center>
-                        <b>Bhimavaram Online</b>
+                        <b>https://naidugarikundabiryani.com/</b>
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-12 item">
-                    <h3>Associate Sponsor</h3>
+                    <h3></h3>
                     <br>
-                    <a href='https://bhimavaramonline.page.link/gvFA' target='kshatriya'>
-                        <center><img src="assets/onepage/img/sponsors/kkitchen.png" alt="" class="img-responsive">
+                    <a href='' target='kshatriya'>
+                        <center><img src="assets/onepage/im" alt="" class="img-responsive">
                         </center>
-                        <b>Kshatriya's Kitchen</b>
+                        <b></b>
                     </a>
                 </div>
             </div>
@@ -317,8 +309,7 @@
     <div class="portfolio-block content content-center" id="portfolio">
         <div class="container">
             <h2 class="margin-bottom-50">Department Wise <strong>Leader Board</strong></h2>
-            <a href="ranks.php" target="_blank" class="btn blink"
-                style='background-color:#C91E3E;color:#ffff; font-size:18px;box-shadow: 3px 3px 1px white;'><b> VIEW
+            <a href="ranks.php" target="_blank" class="btn blink" style='background-color:#C91E3E;color:#ffff; font-size:18px;box-shadow: 3px 3px 1px white;'><b> VIEW
                     SRKR SPELLBEE LEADERBOARD</b></a><br><br><br>
 
         </div>
@@ -482,15 +473,14 @@
                 for any unanswered queries.</h4>
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-12 text-left">
-                    <img src="assets/onepage/img/choose-us.png" alt="Why to choose us" class="img-responsive">
+                    <img src="assets/onepage/img/banner.jpg" alt="Why to choose us" class="img-responsive">
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12 text-left">
                     <div class="panel-group" id="accordion1">
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h5 class="panel-title">
-                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1"
-                                        href="#accordion1_1">Who can participate?</a>
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_1">Who can participate?</a>
                                 </h5>
                             </div>
                             <div id="accordion1_1" class="panel-collapse collapse in">
@@ -505,8 +495,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h5 class="panel-title">
-                                    <a class="accordion-toggle collapsed" data-toggle="collapse"
-                                        data-parent="#accordion1" href="#accordion1_2">Is there an exam fee?</a>
+                                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_2">Is there an exam fee?</a>
                                 </h5>
                             </div>
                             <div id="accordion1_2" class="panel-collapse collapse">
@@ -520,8 +509,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h5 class="panel-title">
-                                    <a class="accordion-toggle collapsed" data-toggle="collapse"
-                                        data-parent="#accordion1" href="#accordion1_3">What is the benefit of taking
+                                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_3">What is the benefit of taking
                                         this contest?</a>
                                 </h5>
                             </div>
@@ -533,7 +521,7 @@
                                         prizes, you
                                         can assess your Spelling skills and know where you stand among the potential
                                         peers
-                                        of SRKR. SRKR SpellBee Challenge 2023 is going to generate Ranks for the top
+                                        of SRKR. SRKR SpellBee Challenge 2024 is going to generate Ranks for the top
                                         10 students based on their overall performance in the contest. A certificate of
                                         merit or participation is given to acknowledge their performance.</p>
                                     <p>You can win an Boat EarPods / Smart Watches / Sound
@@ -546,8 +534,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h5 class="panel-title">
-                                    <a class="accordion-toggle collapsed" data-toggle="collapse"
-                                        data-parent="#accordion1" href="#accordion1_4">Where is the exam conducted?</a>
+                                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_4">Where is the exam conducted?</a>
                                 </h5>
                             </div>
                             <div id="accordion1_4" class="panel-collapse collapse">
@@ -562,8 +549,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h5 class="panel-title">
-                                    <a class="accordion-toggle collapsed" data-toggle="collapse"
-                                        data-parent="#accordion1" href="#accordion1_5">Is the contest tough to
+                                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_5">Is the contest tough to
                                         participate?</a>
                                 </h5>
                             </div>
@@ -578,8 +564,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h5 class="panel-title">
-                                    <a class="accordion-toggle collapsed" data-toggle="collapse"
-                                        data-parent="#accordion1" href="#accordion1_6">I have other doubts. Whom do I
+                                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_6">I have other doubts. Whom do I
                                         contact?</a>
                                 </h5>
                             </div>
@@ -612,11 +597,10 @@
 
     <!-- Facts block BEGIN -->
     <div class="facts-block content content-center" id="facts-block">
-        <a href="ranks.php" target="_blank" class="btn blink"
-            style='background-color:#C91E3E;color:#ffff; font-size:18px;box-shadow: 3px 3px 1px white;'><b> View SRKR
+        <a href="ranks.php" target="_blank" class="btn blink" style='background-color:#C91E3E;color:#ffff; font-size:18px;box-shadow: 3px 3px 1px white;'><b> View SRKR
                 SPELLBEE LEADERBOARD</b></a>
         <br><br><br>
-        <h2>Spell Champ 2023 Registration Stats</h2>
+        <h2>Spell Champ 2024 Registration Stats</h2>
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-3 col-xs-6">
@@ -632,16 +616,32 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-6">
+                    <?php
+                    $result = mysqli_query($conn, "SELECT MAX(points) as top FROM `users`");
+                    $row = mysqli_fetch_assoc($result);
+                    $highestScore = isset($row['top']) ? $row['top'] : '0';
+                    ?>
+
                     <div class="item">
-                        <strong><?php echo mysqli_fetch_assoc(mysqli_query($conn, "SELECT MAX(points) as top FROM `users` "))['top'] ?></strong>
+                        <strong><?php echo $highestScore; ?></strong>
+                        <br>
                         HIGHEST SCORE
                     </div>
                 </div>
+
+
                 <div class="col-md-3 col-sm-3 col-xs-6">
+                    <?php
+                    $result = mysqli_query($conn, "SELECT `department` as top FROM `users` WHERE `points` = (SELECT MAX(points) FROM `users`) ORDER BY `lastseen` DESC LIMIT 1");
+                    $row = mysqli_fetch_assoc($result);
+                    $department = $row ? $row['top'] : '0';
+                    ?>
+
                     <div class="item">
-                        <strong><?php echo mysqli_fetch_assoc(mysqli_query($conn, "SELECT `department` as top FROM `users`WHERE `points` = ( SELECT MAX(points) FROM `users`) ORDER BY `lastseen` DESC LIMIT 1 "))['top'] ?></strong>
+                        <strong><?php echo $department; ?></strong>
                         HIGH SCORE DEPARTMENT
                     </div>
+
                 </div>
             </div>
         </div>
@@ -747,102 +747,100 @@
 
     <!-- Team block BEGIN -->
     <div class="team-block content content-center margin-bottom-40" id="team">
-        <div class="container">
+        <!-- <div class="container">
             <h2>Meet <strong>The Student Team</strong></h2>
             <div class="row">
                 <style>
-                /* Style for the news scrolling section */
-                .news-scrolling {
-                    background-color: #C91E3E;
-                    /* Background color for the scrolling section */
-                    padding: 10px 0;
-                    /* 10px padding at the top and bottom */
-                    text-align: center;
-                    white-space: nowrap;
-                    /* Prevent text from wrapping to multiple lines */
-                    overflow: hidden;
-                    /* Hide overflow content */
-                    color: #FFFFFF;
-                    /* Text color */
-                    font-size: 16px;
-                    /* Font size */
-                    font-weight: bold;
-                    /* Bold text */
-                }
-
-                /* Style for the scrolling marquee */
-                .marquee {
-                    animation: marquee 45s linear infinite;
-                    /* Start the marquee animation immediately */
-                    display: inline-block;
-                    /* Ensure the marquee stays inline */
-                    white-space: nowrap;
-                    /* Prevent text from wrapping */
-                }
-
-
-                /* Pause the marquee animation on hover */
-                .marquee:hover {
-                    animation-play-state: paused;
-                }
-
-                /* Keyframes for the marquee animation */
-                @keyframes marquee {
-                    0% {
-                        transform: translateX(50%);
+                    .news-scrolling {
+                        background-color: #C91E3E;
+                        /* Background color for the scrolling section */
+                        padding: 10px 0;
+                        /* 10px padding at the top and bottom */
+                        text-align: center;
+                        white-space: nowrap;
+                        /* Prevent text from wrapping to multiple lines */
+                        overflow: hidden;
+                        /* Hide overflow content */
+                        color: #FFFFFF;
+                        /* Text color */
+                        font-size: 16px;
+                        /* Font size */
+                        font-weight: bold;
+                        /* Bold text */
                     }
 
-                    100% {
-                        transform: translateX(-100%);
+                    /* Style for the scrolling marquee */
+                    .marquee {
+                        animation: marquee 45s linear infinite;
+                        /* Start the marquee animation immediately */
+                        display: inline-block;
+                        /* Ensure the marquee stays inline */
+                        white-space: nowrap;
+                        /* Prevent text from wrapping */
                     }
-                }
 
-                /* Style for individual news items */
-                .news-item {
-                    display: inline-block;
-                    white-space: nowrap;
-                    /* Prevent text from wrapping to multiple lines */
-                    margin-right: 20px;
-                    /* Add a margin to create a gap between names */
-                }
 
-                /* Style for news text (non-link part) */
-                .news-text {
-                    color: #FFFFFF;
-                    /* Text color */
-                    display: inline;
-                    /* Display the text inline */
-                }
+                    /* Pause the marquee animation on hover */
+                    .marquee:hover {
+                        animation-play-state: paused;
+                    }
 
-                /* Style for news links */
-                .news-link {
-                    color: #C91E3E;
-                    /* Change link text color to #C91E3E */
-                    text-decoration: none;
-                    /* Remove underline from links */
-                    background-color: white;
-                    /* Change background color to white */
-                    padding: 5px 5px;
-                    /* Add padding to the button for better appearance */
-                    border-radius: 5px;
-                    /* Add rounded corners to the button */
-                    display: inline;
-                    /* Display the button inline */
-                    margin-left: 10px;
-                    /* Add spacing to separate the button from the text */
-                    cursor: pointer;
-                    /* Change cursor to pointer on hover */
-                }
+                    /* Keyframes for the marquee animation */
+                    @keyframes marquee {
+                        0% {
+                            transform: translateX(50%);
+                        }
 
-                /* Style for the white text */
-                .white-text {
-                    color: #FFFFFF;
-                    /* Text color */
-                }
+                        100% {
+                            transform: translateX(-100%);
+                        }
+                    }
+
+                    /* Style for individual news items */
+                    .news-item {
+                        display: inline-block;
+                        white-space: nowrap;
+                        /* Prevent text from wrapping to multiple lines */
+                        margin-right: 20px;
+                        /* Add a margin to create a gap between names */
+                    }
+
+                    /* Style for news text (non-link part) */
+                    .news-text {
+                        color: #FFFFFF;
+                        /* Text color */
+                        display: inline;
+                        /* Display the text inline */
+                    }
+
+                    /* Style for news links */
+                    .news-link {
+                        color: #C91E3E;
+                        /* Change link text color to #C91E3E */
+                        text-decoration: none;
+                        /* Remove underline from links */
+                        background-color: white;
+                        /* Change background color to white */
+                        padding: 5px 5px;
+                        /* Add padding to the button for better appearance */
+                        border-radius: 5px;
+                        /* Add rounded corners to the button */
+                        display: inline;
+                        /* Display the button inline */
+                        margin-left: 10px;
+                        /* Add spacing to separate the button from the text */
+                        cursor: pointer;
+                        /* Change cursor to pointer on hover */
+                    }
+
+                    /* Style for the white text */
+                    .white-text {
+                        color: #FFFFFF;
+                        /* Text color */
+                    }
                 </style>
 
 
-                <!-- News Scrolling Section -->
                 <div id="scrolling-marquee" class="news-scrolling">
                     <div class="marquee">
                         <div class="news-item">
@@ -897,10 +895,10 @@
                             <p><span class="news-text">Bharath (2/4 CSD)</span></p>
                         </div>
                         <div class="news-item">
-                            <p><span class="news-text">Vamsi (2/4 CSD)</span></p>
+                            <p><span class="news-text">tejeswi (2/4 CSD)</span></p>
                         </div>
                         <div class="news-item">
-                            <p><span class="news-text">tejeswini (2/4 CSD)</span></p>
+                            <p><span class="news-text">Vamsi (2/4 CSD)</span></p>
                         </div>
                         <div class="news-item">
                             <p><span class="news-text">karimunisa (2/4 CSD)</span></p>
@@ -978,25 +976,55 @@
                 </div>
                 <br><br>
             </div>
-        </div>
+            
+        </div> -->
+        <div class="user-comments">
+                <h2>Users <strong>Feedback</strong></h2>
+                <?php
+                // Assuming you have a database connection established
+
+                // Fetch data from the table
+                $query = "SELECT * FROM feedback";
+                $result = mysqli_query($conn, $query);
+
+                // Loop through the result and print the data
+                while ($row = mysqli_fetch_assoc($result)) {
+                    echo '<div class="comment-box">';
+                    echo '<div class="inner-box">';
+                    echo '<p><span class="name">Name: ' . $row['regno'] . '</span></p>';
+                    echo '<p><span class="department">Department: CSD</span></p>';
+                    echo '<p><span class="feedback">Feedback: ' . $row['feedback'] . '</span></p>';
+                    echo '<p><span class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</span></p>';
+                    echo '</div>';
+                    echo '</div>';
+                }
+
+                // Close the database connection
+                mysqli_close($conn);
+                ?>
+                <!-- Add more comment boxes as needed -->
+            </div>
+        
     </div>
+    
+    
     <!-- Team block END -->
 
 
-    <?php include   'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
     <script>
-    jQuery(document).ready(function() {
-        Layout.init();
-    });
+        jQuery(document).ready(function() {
+            Layout.init();
+        });
 
-    // Get the marquee element by ID
-    const marquee = document.getElementById('scrolling-marquee');
+        // Get the marquee element by ID
+        const marquee = document.getElementById('scrolling-marquee');
 
-    // Resume the marquee animation when the cursor leaves the marquee
-    marquee.addEventListener('mouseout', function() {
-        marquee.style.animationPlayState = 'running';
-    });
+        // Resume the marquee animation when the cursor leaves the marquee
+        marquee.addEventListener('mouseout', function() {
+            marquee.style.animationPlayState = 'running';
+        });
     </script>
 
     <!-- Global js END -->
